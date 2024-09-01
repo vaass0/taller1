@@ -15,7 +15,28 @@ public class Main {
         } else {
             return invitados == 0;
         }
+    }
+    public int aforoDisponible(String[][] lista,String sala, int AforoMAX){
+        int aforoGeneral = 0;
+        int aforoVip = 0;
+        for (String[] persona : lista) {
+            if(persona != null) {
+                if (persona[2] == "Vip" && persona[4] == "True") {
+                    aforoVip++;
+                } else if (persona[2] == "General" && persona[4] == "True") {
+                    aforoGeneral++;
+                }
+            }
+
         }
+        if (sala.equals("Vip")){
+            return AforoMAX - aforoVip;
+        } else if (sala.equals("General")) {
+            return AforoMAX - aforoGeneral;
+        }else
+            return AforoMAX;
+    }
+
     }
 
 
