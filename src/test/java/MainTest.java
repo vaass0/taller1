@@ -51,10 +51,14 @@ class MainTest {
 
     @org.junit.jupiter.api.Test
     void aforoDisponible() {
+        assertEquals(10,gestion.aforoDisponible(listaEvento,"Vip",aforoVipMax));
+        assertEquals(18,gestion.aforoDisponible(listaEvento,"General",aforoGenMax));
+        System.out.println("Se ha obtenido el aforo correctamente");
     }
 
     @org.junit.jupiter.api.Test
     void ingresarPersona() {
+
     }
 
     @org.junit.jupiter.api.Test
