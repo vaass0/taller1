@@ -1,4 +1,5 @@
-import org.junit.jupiter.api.BeforeAll;
+
+
 import org.junit.jupiter.api.BeforeEach;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -77,6 +78,9 @@ class MainTest {
     }
 
     @org.junit.jupiter.api.Test
-    void removerPersonal() {
+    void removerPersona() {
+        assertTrue(gestion.removerPersona(listaEvento,0));
+        System.out.println("Se ha eliminado la persona de manera correcta de la sala");
     }
+
 }
