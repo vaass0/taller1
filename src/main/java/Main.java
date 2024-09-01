@@ -17,10 +17,13 @@ public class Main {
     public int aforoDisponible(String[][] lista,String sala, int AforoMAX){
         int aforoGeneral = 0;
         int aforoVip = 0;
+        int invitados;
         for (String[] persona : lista) {
             if(persona != null) {
                 if (persona[2] == "Vip" && persona[4] == "True") {
+                    invitados = Integer.parseInt(persona[3]);
                     aforoVip++;
+                    aforoVip = aforoVip+invitados;
                 } else if (persona[2] == "General" && persona[4] == "True") {
                     aforoGeneral++;
                 }
@@ -59,6 +62,15 @@ public class Main {
             return false;
         }
         return false;
+    }
+    public boolean removerPersona(String[][] lista, int indice){
+        if (lista[indice][4] == "True"){
+            lista[indice][4] = "False";
+            return true;
+        } else if (lista[indice][4] == null) {
+            return false;
+        }
+        return true;
     }
 
 
