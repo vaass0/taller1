@@ -1,6 +1,4 @@
 public class Main {
-    String[][] listaEvento = new String[10][5];
-
     public boolean verificarEdad(String[][] lista, int indice) {
         int edad = Integer.parseInt(lista[indice][1]);
         return edad > 17;
@@ -36,6 +34,16 @@ public class Main {
         }else
             return AforoMAX;
     }
+    public boolean ingresarPersona(String[][] lista, int indice ){
+        if (lista[indice][4] == "False"){
+            lista[indice][4] = "True";
+            return true;
+        } else if (lista[indice][4] == null) {
+            return false;
+        }
+        return true;
+    }
+
 
     }
 
