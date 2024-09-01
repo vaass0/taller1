@@ -53,12 +53,17 @@ class MainTest {
     void aforoDisponible() {
         assertEquals(10,gestion.aforoDisponible(listaEvento,"Vip",aforoVipMax));
         assertEquals(18,gestion.aforoDisponible(listaEvento,"General",aforoGenMax));
-        System.out.println("Se ha obtenido el aforo correctamente");
+        System.out.println("Se ha obtenido el aforo correctamente...");
     }
 
     @org.junit.jupiter.api.Test
     void ingresarPersona() {
-
+        assertTrue(gestion.ingresarPersona(listaEvento,0));
+        assertTrue(gestion.ingresarPersona(listaEvento,1));
+        assertTrue(gestion.ingresarPersona(listaEvento,2));
+        assertTrue(gestion.ingresarPersona(listaEvento,3));
+        assertTrue(gestion.ingresarPersona(listaEvento,4));
+        System.out.println("Se realizo la actualizacion de estado correctamente...");
     }
 
     @org.junit.jupiter.api.Test
