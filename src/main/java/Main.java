@@ -1,7 +1,7 @@
 public class Main {
     public boolean verificarEdad(String[][] lista, int indice) {
         int edad = Integer.parseInt(lista[indice][1]);
-        return edad > 17;
+        return edad >= 18;
     }
     public String verificarBoleto(String[][] lista, int indice){
         return lista[indice][2];
@@ -42,6 +42,23 @@ public class Main {
             return false;
         }
         return true;
+    }
+    public boolean permitirEntrada(String[][] lista, int indice, int aforo){
+        int edad = Integer.parseInt(lista[indice][1]);
+        String entrada = lista[indice][2];
+        int invitados = Integer.parseInt(lista[indice][3]);
+        if (edad >= 18){
+            if( entrada == "General" || entrada == "Vip"){
+                if(entrada == "General" && aforoDisponible(lista,"General",aforo) >0){
+                    return true;
+                } else if (entrada == "Vip" && aforoDisponible(lista,"Vip",aforo) > invitados+1) {
+                    return true;
+                }
+                return false;
+            }
+            return false;
+        }
+        return false;
     }
 
 

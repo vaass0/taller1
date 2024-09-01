@@ -68,6 +68,12 @@ class MainTest {
 
     @org.junit.jupiter.api.Test
     void permitirEntrada() {
+        assertTrue(gestion.permitirEntrada(listaEvento,0,aforoGenMax));
+        assertTrue(gestion.permitirEntrada(listaEvento,1,aforoVipMax));
+        assertFalse(gestion.permitirEntrada(listaEvento,2,aforoGenMax));
+        assertTrue(gestion.permitirEntrada(listaEvento,3,aforoVipMax));
+        assertTrue(gestion.permitirEntrada(listaEvento,4,aforoGenMax));
+        System.out.println("Se ha permitido la entrada correctamente...");
     }
 
     @org.junit.jupiter.api.Test
