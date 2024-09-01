@@ -1,32 +1,10 @@
 public class Main {
-    String [][] listaEvento = new String[10][5];
-    int aforoTotalVip =
-    public static boolean verificarEdad(String[][] lista){
+    String[][] listaEvento = new String[10][5];
 
+    public boolean verificarEdad(String[][] lista, int indice) {
+        int edad = Integer.parseInt(lista[indice][1]);
+        return edad > 17;
     }
-
-    public static String verificarBoleto(String[][] lista){
-
-    }
-
-    public static boolean validarInvitados(String[][] lista){
-
-    }
-
-    public static int aforoDisponible(String[][] lista){
-
-    }
-
-    public static String[][] ingresarPersona(String[][] lista){
-
-    }
-
-    public static boolean permitirEntrada(String[][] lista){
-
-    }
-
-    public static String[][] removerPersonal(String[][] lista){
-
-    }
-
 }
+
+
