@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f504c54d-59c7-437c-a51d-bc353ee8285b" name="Changes" comment="Subiendo test listos con capturas" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vaass0&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vaass0/taller1.git&quot;,
+    &quot;accountId&quot;: &quot;6fa99c97-c700-4d7a-b8ef-b3bb2b7f6b7f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2lU4MrANnLCvxi2icMhOCJbfGN6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.MainTest.aforoDisponible.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.ingresarPersona.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.permitirEntrada.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.removerPersonal.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.validarInvitados.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.verificarBoleto.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.verificarEdad.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dudua/IdeaProjects/taller1&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dudua/IdeaProjects/taller1/src/main/java/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MainTest">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.aforoDisponible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="aforoDisponible" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.ingresarPersona" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="ingresarPersona" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.permitirEntrada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="permitirEntrada" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.removerPersonal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="removerPersonal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.removerPersonal" />
+        <item itemvalue="JUnit.MainTest.aforoDisponible" />
+        <item itemvalue="JUnit.MainTest.permitirEntrada" />
+        <item itemvalue="JUnit.MainTest.ingresarPersona" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f504c54d-59c7-437c-a51d-bc353ee8285b" name="Changes" comment="" />
+      <created>1725221276951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725221276951</updated>
+    </task>
+    <task id="LOCAL-00001" summary="inicializando repositorio con README.md">
+      <option name="closed" value="true" />
+      <created>1725217636506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725217636506</updated>
+    </task>
+    <task id="LOCAL-00002" summary="inicializando  develop">
+      <option name="closed" value="true" />
+      <created>1725217771750</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725217771750</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Prueba verificarEdad completa">
+      <option name="closed" value="true" />
+      <created>1725219328278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725219328278</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Prueba verificar boleto completa">
+      <option name="closed" value="true" />
+      <created>1725219921223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725219921223</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Prueba validar invitados completa">
+      <option name="closed" value="true" />
+      <created>1725220598147</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725220598147</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Prueba obetener el aforo disponible completa">
+      <option name="closed" value="true" />
+      <created>1725222406905</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725222406905</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Prueba ingresar persona se completo correctamente">
+      <option name="closed" value="true" />
+      <created>1725223174288</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725223174288</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Prueba permitir entrada se completo correctamente">
+      <option name="closed" value="true" />
+      <created>1725224638963</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725224638963</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Prueba remover persona se completo correctamente y se actualizo el metodo aforoDisponible">
+      <option name="closed" value="true" />
+      <created>1725225410094</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725225410094</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Subiendo test listos con capturas">
+      <option name="closed" value="true" />
+      <created>1725225781750</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725225781750</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inicializando repositorio con README.md" />
+    <MESSAGE value="inicializando  develop" />
+    <MESSAGE value="Prueba verificarEdad completa" />
+    <MESSAGE value="Prueba verificar boleto completa" />
+    <MESSAGE value="Prueba validar invitados completa" />
+    <MESSAGE value="Prueba obetener el aforo disponible completa" />
+    <MESSAGE value="Prueba ingresar persona se completo correctamente" />
+    <MESSAGE value="Prueba permitir entrada se completo correctamente" />
+    <MESSAGE value="Prueba remover persona se completo correctamente y se actualizo el metodo aforoDisponible" />
+    <MESSAGE value="Subiendo test listos con capturas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subiendo test listos con capturas" />
+  </component>
+</project>
