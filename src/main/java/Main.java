@@ -8,6 +8,15 @@ public class Main {
     public String verificarBoleto(String[][] lista, int indice){
         return lista[indice][2];
     }
-}
+    public boolean validarInvitados(String[][] lista, int indice){
+        int invitados = Integer.parseInt(lista[indice][3]);
+        if (lista[indice][2].equals("Vip")) {
+            return invitados < 3;
+        } else {
+            return invitados == 0;
+        }
+        }
+    }
+
 
 
