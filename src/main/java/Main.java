@@ -5,6 +5,9 @@ public class Main {
         int edad = Integer.parseInt(lista[indice][1]);
         return edad > 17;
     }
+    public String verificarBoleto(String[][] lista, int indice){
+        return lista[indice][2];
+    }
 }
 
 
